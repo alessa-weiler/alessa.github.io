@@ -95,6 +95,16 @@ main {
     text-decoration: underline;
 }
 
+.social-icons a {
+    color: white; /* Change the link color to white */
+    text-decoration: none; /* Optional: remove underline from links */
+    padding: 0 10px; /* Optional: add some padding for spacing */
+}
+
+.social-icons a:hover {
+    color: #ccc; /* Change the color on hover (e.g., light gray) */
+}
+
 .posts ul li a:hover {
     text-decoration: underline;
 }
