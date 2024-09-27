@@ -17,9 +17,29 @@ header {
     border-bottom: 1px solid #333;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    text-decoration: none;
+}
+
+.dog-logo {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logo a:hover .dog-logo {
+    content: url('new-hover-logo.png'); /* Replace with the path to your hover logo */
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
+
 .logo h1 {
     font-size: 1.5rem;
     color: #66ff99;
+    margin-left: 10px;
 }
 
 nav ul {
