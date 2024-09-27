@@ -105,3 +105,11 @@
     </main>
 </body>
 </html>
+
+<script>
+document.querySelectorAll('.posts ul li').forEach(function(project) {
+    project.addEventListener('click', function() {
+        this.classList.toggle('active');
+    });
+});
+</script>
