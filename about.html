@@ -3,29 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About | Astro Cactus</title>
+    <title>About Me</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Header (reusable from previous pages) -->
     <header>
         <div class="logo">
-            <img src="assets/images/dog-logo.png" alt="Logo" class="dog-logo">
-            <h1>Astro Cactus</h1>
+            <a href="index.html">
+                <img src="assets/images/logo.png" class="dog-logo" alt="Logo">
+            </a>
+            <h1>About Me</h1>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="projects.html">Projects</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Main content of the About Page -->
     <main>
-        <section class="about">
-            <h2>About Me</h2>
-            <p>Welcome to Astro Cactus! I’m a passionate web developer sharing my journey and projects. I love creating blogs, tutorials, and exploring new technologies. Feel free to check out my projects and posts.</p>
+        <section class="about-section">
+            <h2>Favourite Projects Over the Years</h2>
+
+            <div class="year-project">
+                <h3>2024 - Computational gene drive project with the Windbichler Lab</h3>
+                <p>This project was the first of two projects in my master's. It's where I truly put my coding skills to use to build a computational pipeline, where I wrote code to extract and quantify guide RNA sequences from different gene drives, in order to input it into a multivariate model to see whether gRNA sequence scores significantly influenced the inheritance rate of the overall gene drive. I then quantified the expression levels as measured by RNAseq of different promoters, to see if the expression of promoters at different life stages significantly influenced the inheritance rates of gene drives. Coding languages used include bash, R and Python. Code sharing with my supervisor Seb was done in GitHub.</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2023 - Raising my Bernese Mountain Dog puppy Moose</h3>
+                <p>Ah - Moose. I put a deposit for him in January. He was born end of April, I picked him in May and picked him up literally the week after my exams were done (after the May Ball and a fun trip to Spain of course). When I first got him I didn't feel the 'click' I expected, and I struggled a lot with seemingly everything. Potty training took months because he refused to go to the toilet on anything that wasn't carpet. I tried sitting outside waiting for hours with a book, but he would hold it for literal hours until we went inside and he would immediately go on the carpet. It was exhausting. I took him outside every two hours - including in the middle of the night, and stood outside for about an hour at the very least each time. Quickly figured out that he's happy going on a carpet outside, so that's what I did for a month. Right when he was potty trained, I had a lab placement at the MRC-LMB to work on brain organoids which I was hyped about, but that meant he would have to be home alone for hours at a time. Ended up making it work by cycling back and forth over lunch to check in on him and take him out. Moved back to London to start my masters and he picked up a parasite. The parasite made him super aggressive. Suggestion to use a muzzle. Really helped my confidence to walk him without fear. Had a feeling he had a parasite. Treated the parasite. He stopped biting but started having problems with Scooby and other dogs. Got him fixed. He is much better but still a work in progress. Training in progress.</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2022 - First Public Health Project for the Indian Government</h3>
+                <p> Honestly have always been a bit of a social justice warrior. As a kid in suburbian Canada I would write to my local MP to present my solutions for global warming. They didn't really want to hear a 9-year-old's opinion so I presented it to my primary school instead, and put posters around my neighbourhood. So when the opportunity to work on a public health project cropped up at university I feel like my inner child squealed a little bit. Helped with the data analysis of population census data and paper writing to better understand what factors influence medication adherence in India. You can see the published paper <a href=https://pubmed.ncbi.nlm.nih.gov/37900158/> here </a> </p>
+            </div>
+            <div class="year-project">
+                <h3>2022 - First wet and dry lab project investigating Smg1</h3>
+                <p>Found it really difficult to get this first placement. Applied around the board to about 50 labs - my interest was more in translational science, women's health and neurobiology, so this one was a little out of my comfort zone (hardcore molecular biology). Still took it one step at a time, read a textbook and a couple reviews to wrap my head around things and then I delved straight in. Really enjoyed my time there and my supervisor was really supportive, so I stayed on for the rest of the year for my bachelor's thesis as well. Ended up applying for a couple PhDs in the sphere, unsuccesfully (fortunately? unfortunately? wouldn't be going out on a limb starting something if I was doing a PhD I guess.... had to touch some grass at some point). No biggie though because I learnt a lot and ended up becoming a lot more interested in molecular biology and delving into that at the Master's level so that was cool</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2021 - Literature review for Entheon Biomedical</h3>
+                <p>First time working for a startup. Absolutely loved it. Obsessed. Had to wear many different hats, so to speak. Helped with the design and building of pitch decks in coordination with the design team, taking meeting minutes - all that schnazz. But my main task was to fine tune the product after a merger. It was a gene test kit for the dosage of psychedelics for psychedelic assisted therapy. I was to construct a list - according to an in-depth literature review - of all relevant genes to be tested as part of the kit, as well as their level of relevance and to which drugs in particular. Presented my findings to the CEOs of both companies. Delighted that this resulted in a modification of the gene test kit. Learnt not only how to build a product and refine it but also how to communicate with a team and with key stakeholders. That was super fun.</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2020 - Tour du Mont Blanc (10 day hike)</h3>
+                <p>Graduated from high school during covid, started my first year at the beginning of the pandemic. Not crazy fun all the time, but this instance was. After completing my first half marathon two weeks prior, I packed my bags and walked through Switzerland, France and Italy over the course of 10 days, climbing on average one mountain a day and carrying a massive heavy bag of random things ranging from clothes to snacks to a ukelele and a nikon camera. Had to send the ukelele back home halfway through after having twisted my ankle and not being able to support as much weight. Rather unfortunate to not be able to bless the Swiss with my lovely musicality skills but it's probably for the best as they probably would have deported me. Continued the last five days on a twisted ankle. Completed the hike and enjoyed a lovely warm shower (I was very stinky).</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2019 - Building a mind-controlled video game with Arduino</h3>
+                <p>Honestly can't remember much about this project, although it was quite cool. Unsure if we ended up getting this to work, but got some EEG probes and followed a guide to try to make a mind controlled video game. To be honest I think it made me believe less in the ability to sense information from EEG headsets and made me skeptical of all those EEG headsets on line to 'track brain waves' - why did I need to focus so hard for it to work if it should just pick up information in the background. Definitely EEG needs much more sensitivity for it to be an accurate tool in the future.</p>
+            </div>
+
+            <div class="year-project">
+                <h3>2018 - Hatching autistic quail</h3>
+                <p>I think this is often what people remember me for but it was actually one of my older projects. At this point I had hatched ducks and chickens the two years prior. Started with an incubator made out of two wineboxes, a lamp and some styrofoam insulation with a cup of water - which was rather unsuccessful unfortunately (RIP Jimmy 1.0 - name of the first egg from this incubator that never hatched). Upgraded to a Brinsea octagon 20 and never looked back - that thing incubated like a real bird. Probably near 80% hatch rate, including jimmy 2.0 - who ended up imprinting on me and running around the house. Was reading a lot of Simon Baron-Cohen's stuff at the time and had just finished his book prenatal testosterone in mind which was actually really persuasive to my easily influenced teenage brain. Wrote an article on Medium on how we need to embrace female-male brain differences. Got loads of praise from men. Was skeptical - worried about spreading misinformation accidentally so naturally tried it at home. Bought some quail eggs off ebay and 3-5 business days later I was doing my science. Instead of water I added humidity with soy milk which has phytoestrogens. Given the permeability of eggs the phytoestrogens should go straight to the growing chick, and I could monitor growth during development by candling the eggs. Then I could look at behavioural outcomes. N=3 and results were null (no difference) but it was still fun so heyo.</p>
+            </div>
         </section>
     </main>
+
 </body>
 </html>
