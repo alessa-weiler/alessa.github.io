@@ -1,12 +1,3 @@
-body {
-    font-family: 'ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace';
-    font-size: 0.875rem; /* Matches the size from the example */
-    line-height: 1.7142857rem; /* Line height for readability */
-    background-color: #1b1b1b; /* Dark background for a modern look */
-    color: #eaeaea; /* Light text for contrast */
-    padding: 0;
-    margin: 0;
-}
 header {
     display: flex;
     justify-content: space-between;
@@ -16,97 +7,60 @@ header {
     border-bottom: 1px solid #333;
 }
 
+.logo h1 {
+    font-size: 1.5rem;
+    color: #66ff99;
+}
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 15px;
 }
+
 nav ul li a {
-    text-decoration: none;
     color: #66ff99;
+    text-decoration: none;
     font-weight: bold;
 }
 
-.header-icons {
-    display: flex;
-    gap: 10px;
+nav ul li a:hover {
+    color: #00cc66;
 }
-.icon {
-    width: 25px;
-    height: 25px;
-}
+
 main {
     padding: 20px;
 }
-.intro {
-    text-align: center;
-    margin-bottom: 40px;
-}
+
 .intro h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #eaeaea;
+    font-size: 2.5rem;
 }
+
 .intro p {
-    font-size: 1.2em;
-    margin-bottom: 20px;
+    color: #888;
 }
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-.posts h3, .technologies h3 {
-    font-size: 1.8em;
-    margin-bottom: 20px;
-}
-.posts ul, .technologies ul {
+
+.posts ul {
     list-style: none;
     padding: 0;
 }
-.posts ul li, .technologies ul li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
-}
-.posts ul li span {
-    color: #888888;
-    margin-right: 10px;
-}
-.posts ul li a {
-    text-decoration: none;
-    color: #007bff;
-}
-.posts ul li a:hover {
-    text-decoration: underline;
-}
-.technologies ul li strong {
-    font-weight: bold;
-    color: #333333;
-}
-.project-list a:hover {
-    text-decoration: underline;
-}
 
 .posts ul li {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 300px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    left: 0;
-    top: 100%;
-    border-radius: 4px;
+
+.posts ul li span {
+    color: #777;
 }
-.posts ul li.active .dropdown-content {
-    display: block;
+
+.posts ul li a {
+    color: #66ff99;
+    text-decoration: none;
 }
-.dropdown-content p {
-    color: #333333;
-    font-size: 1em;
-    margin: 0;
-    line-height: 1.4;
+
+.posts ul li a:hover {
+    text-decoration: underline;
 }
