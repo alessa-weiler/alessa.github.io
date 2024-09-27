@@ -105,7 +105,7 @@ main {
     top: 100%;
     border-radius: 4px;
 }
-.posts ul li:hover .dropdown-content {
+.posts ul li.active .dropdown-content {
     display: block;
 }
 .dropdown-content p {
@@ -113,6 +113,4 @@ main {
     font-size: 1em;
     margin: 0;
     line-height: 1.4;
-}ct-list a:hover {
-    text-decoration: underline;
 }
